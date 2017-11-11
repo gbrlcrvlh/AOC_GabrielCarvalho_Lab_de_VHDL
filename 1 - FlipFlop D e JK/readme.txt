@@ -17,7 +17,7 @@ Para o Flip-Flop do tipo JK foram utilizados os seguintes componentes:
 	Reset - para resetar o dado do registrador (para 0).
 	Jump - para representar o sinal lógico JUMP no Flip-Flop.
 	Kill - para representar o sinal lógico KILL no Flip-Flop.
-	Output - para a saída do dado armazenado no Flip-Flop.
+	Output - para entrada e saída do dado armazenado no Flip-Flop.
 	
 No Flip-Flop do tipo JK os possíveis valores serão '1' e '0' que são definidos através das seguintes condições
 	Condição 1: JUMP contém o sinal lógico '1' e o KILL o '1' => Sendo Q o sinal lógico armazenado, o Flip-FLop altera o valor de Q (Q');
@@ -25,5 +25,5 @@ No Flip-Flop do tipo JK os possíveis valores serão '1' e '0' que são definido
 	Condição 3: JUMP contém o sinal lógico '1' e o KILL o '0' => Valor armazenado no Flip-Flop será 1;
 	Condição 4: JUMP contém o sinal lógico '0' e o KILL o '1' => Valor armazenado no FLip-FLop será 0.
 
-Podemos verificar no arquivo "WaveForm1.vwf" ou na imagem "WaveForm_FlipFlopJK.png" em 10ns caindo na condição 2, logo em seguida em 30ns caindo na condição 3, em 50ns caindo na condição 4 e em 70ns caindo na condição 1. 
+Podemos verificar no arquivo "WaveForm1.vwf" ou na imagem "WaveForm_FlipFlopJK.png" em 10ns caindo na condição 2, logo em seguida em 30ns caindo na condição 3, em 50ns caindo na condição 4 e em 70ns caindo na condição 1. O Output foi utilizado como "INOUT" pois na condição 1 precisamos negar o valor armazenado então utilizamos o "output <= not output". 
 	

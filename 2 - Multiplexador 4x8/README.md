@@ -1,11 +1,11 @@
 # MULTIPLEXADOR:
 Para o multiplexador foram utilizados os seguintes componentes:
-	+ **Clock** - para o sinal lógico do processador.
-	+ **selector** - para indicar a saída do MUX, com 2 bits
-	+ **E0** - para primeira entrada de 8 bits do MUX
-	+ **E1** - para segunda entrada de 8 bits do MUX
-	+ **E3** - para terceira entrada de 8 bits do MUX
-	+ **E4** - para quarta entrada de 8 bits do MUX
+	* **Clock** - para o sinal lógico do processador.
+	* **selector** - para indicar a saída do MUX, com 2 bits
+	* **E0** - para primeira entrada de 8 bits do MUX
+	* **E1** - para segunda entrada de 8 bits do MUX
+	* **E3** - para terceira entrada de 8 bits do MUX
+	* **E4** - para quarta entrada de 8 bits do MUX
 	
 O multiplexador é um componente onde terá diversas entradas e apenas uma saída que será definida através do **selector** dependendo do seu valor:
 	caso o **selector** seja "00", a saída do MUX terá o valor de **E0**.

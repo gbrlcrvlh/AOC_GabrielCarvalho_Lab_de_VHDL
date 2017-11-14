@@ -1,1 +1,3 @@
-# AOC_GabrielCarvalho_Lab_de_VHDL
+# Laboratorio de VHDL
+
+## Alunos: Gabriel Araujo, Hermino Júnior, Jeoane Araujo.

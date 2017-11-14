@@ -1,4 +1,4 @@
-# MULTIPLEXADOR:
+### MULTIPLEXADOR:
 Para o multiplexador foram utilizados os seguintes componentes:
 * **Clock** - para o sinal lógico do processador.
 * **selector** - para indicar a saída do MUX, com 2 bits.

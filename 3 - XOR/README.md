@@ -12,7 +12,7 @@ O mesmo acontece acima, mas acontece bit a bit, ou seja, dada duas entradas de e
 
 O resultado é obtido quando clock assume o valor **1** quando há uma mudança de borda baixa para borda alta, com pode se observado em *Waveform_Xor2x8*. 
 
-Segue a tabela de funcionamento básico do **XOR**:
+Segue abaixo a tabela de funcionamento básico do **XOR**:
 
 A|B|XOR
 -|-|---

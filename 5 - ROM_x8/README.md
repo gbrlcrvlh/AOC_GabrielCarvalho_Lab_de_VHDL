@@ -11,4 +11,4 @@ Para a mémoria ROM foram utilizadas as seguintes entrada(s), saída(s) e variá
 
 A mémoria **ROM** é uma mémoria apenas de leitura, que fucionará da seguinte maneira:
 
-Se caso **resent** for **1**, **output** receberá **"00000000"**, se não ele ele verificará se os eventos de **clock**, **enable** e **leitor** para que ele acesse um valor da mémoria e armazene em **output**, caso o leitor seja **0**, **output** será **"00000000"**.
+Se caso **reset** for **1**, **output** receberá **"00000000"**, se não ele ele verificará se os eventos de **clock**, **enable** e **leitor** se estão habilitados, assim será acessado um valor da mémoria e armazenado em **output**, caso o leitor seja **0**, **output** será **"00000000"**.

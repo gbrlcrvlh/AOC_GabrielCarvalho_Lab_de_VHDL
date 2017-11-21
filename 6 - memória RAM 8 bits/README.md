@@ -18,4 +18,3 @@ escrever|ler|endereco|datain|dataout
 -|-|----|--------|--------
 1|0|0101|00000101|XXXXXXXX
 0|1|0101|XXXXXXXX|00000101
-'

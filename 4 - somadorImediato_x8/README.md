@@ -26,13 +26,13 @@ Assim que as iterações do loop terminar o valor de **result** irá ser armazen
 
 Para um melhor entendimento, segue a tabela verdade básica do somador:
 
-A|B|CIN|S|COUT
--|-|---|-|----
-0|0| 0 |0| 0
-0|1| 0 |1| 0
-1|0| 0 |1| 0
-1|1| 0 |0| 1
-0|0| 1 |1| 0
-0|1| 1 |0| 1
-1|0| 1 |0| 1
-1|1| 1 |1| 1
+A|B|cin|cout|result
+--------|--------|-|-|--------
+00000010|00000100|0|0|0XXXXXXX
+00000010|00000100|0|0|00XXXXXX
+00000010|00000100|0|0|000XXXXX
+00000010|00000100|0|0|0000XXXX
+00000010|00000100|0|0|00000XXX
+00000010|00000100|0|0|000001XX
+00000010|00000100|0|0|0000011X
+00000010|00000100|0|0|00000110

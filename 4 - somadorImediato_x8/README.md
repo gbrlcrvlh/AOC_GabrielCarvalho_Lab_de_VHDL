@@ -24,7 +24,7 @@ end loop;
 
 Assim que as iterações do loop terminar o valor de **result** irá ser armazenado em **output** e então podemos conferir a soma de valores de 8 bits com o valor **00000100**, podemos obeservar isto em *WaveForm_somadorImediato_x8*.
 
-Para um melhor entendimento, segue a tabela verdade básica do somador:
+Para um melhor entendimento, segue a tabela verdade básica para cada **i** na soma entre o **input** de valor **2** (**00000010**) e a constante **4** (**00000100**):
 
 A|B|cin|cout|result
 --------|--------|-|-|--------

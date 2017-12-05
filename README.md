@@ -2,4 +2,4 @@
 
 ## Alunos: Gabriel Araujo, Hermino Júnior, Jeoane Araujo.
 
-### Os teste realizados neste trabalho foram feito pela IDE Quartus II com versão 16.1.
+### Os teste realizados neste trabalho foram feito pela IDE Quartus II com versão 16.1
